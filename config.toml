@@ -51,13 +51,10 @@ pygmentsCodefencesGuessSyntax = true
 
 [languages]
   [languages.en] 
-    baseurl = "https://oddfry.github.io/blog/"
     contentDir = "content/en" # English
-    weight: 1
   [languages.zh-CN]
     baseurl = "https://oddfry.github.io/blog/zh-cn/"
     contentDir = "content/zh-CN" # Simplified Chinese
-    weight: 2
 
 
 [[menu.main]]
