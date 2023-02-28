@@ -1,5 +1,8 @@
 baseurl = "https://oddfry.github.io/blog/"
+# baseurl = "https://oddfry.github.io/"
+# canonifyURLs = true
 DefaultContentLanguage = "en"
+# defaultContentLanguageInSubdir = true # Show en "http://localhost:1313/blog/en/"
 title = "Fry"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
@@ -13,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
   homeTitle = "Hello, World!" # Set a different text for the header on the home page
-  subtitle = "Stay hungry, stay foolish"
+  subtitle = "Each day is a microcosm of all life."
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -45,28 +48,47 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Fry"
-  website = "yourwebsite.com"
+  # website = "yourwebsite.com"
   # email = "youremail@domain.com"
   github = "OddFry"
 
 [languages]
   [languages.en] 
     contentDir = "content/en" # English
-  [languages.zh-CN]
-    contentDir = "content/zh-CN" # Simplified Chinese
-
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
     weight = 1
+    subtitle = "Each day is a microcosm of all life."
+    languageName = "English" # Name shown in the main menu
+    [languages.en.params]
+      linkedin = "https://oddfry.github.io/blog/en/"
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = ""
+        weight = 1
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 2
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
+  [languages.zh-CN]
+    contentDir = "content/zh-CN" #Simplified Chinese
     weight = 2
-
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+    languageName = "简体中文" # Name shown in the main menu
+    subtitle = "一天是一生时光的缩影。"
+    [languages.zh-CN.params]
+      linkedin = "https://oddfry.github.io/blog/zh-CN/"
+    [[languages.zh-CN.menu.main]]
+        name = "博客"
+        url = ""
+        weight = 1
+    [[languages.zh-CN.menu.main]]
+        name = "标签"
+        url = "tags"
+        weight = 2
+    [[languages.zh-CN.menu.main]]
+        name = "关于"
+        url = "page/about/"
+        weight = 3
