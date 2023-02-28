@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Fry</title><link>https://oddfry.github.io/blog/zh-cn/post/</link><description>Recent content in Posts on Fry</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Feb 2023 21:09:30 +0800</lastBuildDate><atom:link href="https://oddfry.github.io/blog/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS 安装 Homebrew</title><link>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</link><pubDate>Sun, 26 Feb 2023 21:09:30 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</guid><description>安装 Homebrew Homebrew site
+/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; 更新 更新 Homebrew 版本：
+brew update 检查可更新的安装包：
+brew outdated 更新安装包：
+brew upgrade # 更新所有的包 brew upgrade $FORMULA # 更新指定的包 锁定不想更新的包：
+brew pin $FORMULA # 锁定某个包 brew unpin $FORMULA # 取消锁定 其他 列出已安装包
+brew list 查看安装包的相关信息：
+brew info $FORMULA # 显示某个包的信息 brew info # 显示安装了包数量，文件数量，和总占用空间 brew deps --installed --tree # 查看已安装的包的依赖，树形显示 清理旧版本：
+brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除</description></item></channel></rss>
