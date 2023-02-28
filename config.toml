@@ -24,13 +24,13 @@ pygmentsCodefencesGuessSyntax = true
   commit = false
   rss = true
   comments = true
-  readingTime = true
+  readingTime = false
   wordCount = true
   useHLJS = true
-  socialShare = true
-  delayDisqus = true
+  socialShare = false
+  delayDisqus = false
   showRelatedPosts = true
-#  hideAuthor = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -57,7 +57,7 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/en" # English
     weight = 1
     subtitle = "Each day is a microcosm of all life."
-    languageName = "English" # Name shown in the main menu
+    languageName = "ENGLISH" # Name shown in the main menu
     [languages.en.params]
       linkedin = "https://oddfry.github.io/blog/en/"
     [[languages.en.menu.main]]
