@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Fry</title><link>https://oddfry.github.io/blog/zh-cn/post/</link><description>Recent content in Posts on Fry</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 04 Mar 2023 16:54:08 +0800</lastBuildDate><atom:link href="https://oddfry.github.io/blog/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Deploying a Spring Boot Application On_Ubuntu</title><link>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on_ubuntu/</link><pubDate>Sat, 04 Mar 2023 16:54:08 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on_ubuntu/</guid><description>1. 部署环境说明 数据库：MySQL 5.7 服务器环境：Ubuntu 18.04 64bit Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
-2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download • 创建安装目录
-mkdir /usr/local/java/ • 将 jdk 文件解压至安装目录
-tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件
-vi /etc/profile • 在末尾添加
-export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH • 刷新环境变量使其生效
-source /etc/profile • 检查 Java 版本
-java -version • 成功安装显示版本信息</description></item><item><title>macOS 安装 Homebrew</title><link>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</link><pubDate>Sun, 26 Feb 2023 21:09:30 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</guid><description>安装 Homebrew Homebrew site
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Fry</title><link>https://oddfry.github.io/blog/zh-cn/post/</link><description>Recent content in Posts on Fry</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 23 May 2022 15:11:30 +0800</lastBuildDate><atom:link href="https://oddfry.github.io/blog/zh-cn/post/index.xml" rel="self" type="application/rss+xml"/><item><title>macOS 安装 Homebrew</title><link>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</link><pubDate>Mon, 23 May 2022 15:11:30 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</guid><description>安装 Homebrew Homebrew site
 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; 更新 更新 Homebrew 版本：
 brew update 检查可更新的安装包：
 brew outdated 更新安装包：
@@ -13,4 +6,15 @@ brew upgrade # 更新所有的包 brew upgrade $FORMULA # 更新指定的包 锁
 brew pin $FORMULA # 锁定某个包 brew unpin $FORMULA # 取消锁定 其他 列出已安装包
 brew list 查看安装包的相关信息：
 brew info $FORMULA # 显示某个包的信息 brew info # 显示安装了包数量，文件数量，和总占用空间 brew deps --installed --tree # 查看已安装的包的依赖，树形显示 清理旧版本：
-brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除</description></item></channel></rss>
+brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除</description></item><item><title>Ubuntu 服务器部署 Spring Boot 应用</title><link>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</link><pubDate>Tue, 05 Jan 2021 20:26:08 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</guid><description>1. 部署环境说明 数据库：MySQL 5.7.31 服务器环境：Ubuntu 18.04 (x86, 64-bit) Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download • 创建安装目录
+mkdir /usr/local/java/ • 将 jdk 文件解压至安装目录
+tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件
+vi /etc/profile • 在末尾添加
+export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH • 刷新环境变量使其生效
+source /etc/profile • 检查 Java 版本</description></item><item><title>Ubuntu 18.04 安装 MySQL 5.7</title><link>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</link><pubDate>Sun, 27 Dec 2020 11:30:58 +0800</pubDate><guid>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</guid><description>下载 创建下载文件夹并进入
+mkdir mysql ; cd $_ 下载 MySQL DEB Bundle 安装包
+wget https://downloads.mysql.com/archives/get/p/23/file/mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 解压安装包
+tar -xvf mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 安装 更新软件源列表
+sudo apt-get update 根据依赖关系逐个安装，参考 MySQL 数据库的下载、安装和测试
+# libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 依赖common sudo dpkg -i mysql-common_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient20_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient-dev_5.7.31-1ubuntu18.04_amd64.deb # libmysqld-dev_5.7.31依赖libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 sudo dpkg -i libmysqld-dev_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i mysql-community-source_5.7.31-1ubuntu18.04_amd64.deb # community-client依赖libaio1，community-server依赖libmecab2 sudo apt-get install libaio1 libmecab2 # 如果上面依赖包安装后还不行就执行，该命令是解决系统全局所有依赖包问题 sudo apt-get install -f # ubuntu 18.04 安装mysql-community-server时，除了上面依赖，还依赖mysql-client（sudo dpkg -i mysql-client_5.</description></item></channel></rss>

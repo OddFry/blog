@@ -7,18 +7,9 @@
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><header class=header-section><div class="intro-header no-img"><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=post-heading><h1>Posts</h1><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 March 4, 2023
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><header class=header-section><div class="intro-header no-img"><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=post-heading><h1>Posts</h1><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 May 23, 2022
 &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;0&nbsp;个字
-&nbsp;&bull;&nbsp;其它语言: <a href=https://oddfry.github.io/blog/en/post/ lang=en>ENGLISH</a></span></div></div></div></div></div></header><div class=container role=main><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=posts-list><article class=post-preview><a href=https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on_ubuntu/><h2 class=post-title>Deploying a Spring Boot Application On_Ubuntu</h2></a><p class=post-meta><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 March 4, 2023
-&nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;352&nbsp;个字</span></p><div class=post-entry>1. 部署环境说明 数据库：MySQL 5.7 服务器环境：Ubuntu 18.04 64bit Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
-2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download • 创建安装目录
-mkdir /usr/local/java/ • 将 jdk 文件解压至安装目录
-tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件
-vi /etc/profile • 在末尾添加
-export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH • 刷新环境变量使其生效
-source /etc/profile • 检查 Java 版本
-java -version • 成功安装显示版本信息
-<a href=https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on_ubuntu/ class=post-read-more>[阅读全文]</a></div></article><article class=post-preview><a href=https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/><h2 class=post-title>macOS 安装 Homebrew</h2><h3 class=post-subtitle>The Missing Package Manager for macOS</h3></a><p class=post-meta><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 February 26, 2023
+&nbsp;&bull;&nbsp;其它语言: <a href=https://oddfry.github.io/blog/en/post/ lang=en>ENGLISH</a></span></div></div></div></div></div></header><div class=container role=main><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><div class=posts-list><article class=post-preview><a href=https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/><h2 class=post-title>macOS 安装 Homebrew</h2><h3 class=post-subtitle>The Missing Package Manager for macOS</h3></a><p class=post-meta><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 May 23, 2022
 &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;86&nbsp;个字</span></p><div class=post-entry>安装 Homebrew Homebrew site
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 更新 更新 Homebrew 版本：
 brew update 检查可更新的安装包：
@@ -28,11 +19,30 @@ brew pin $FORMULA # 锁定某个包 brew unpin $FORMULA # 取消锁定 其他 �
 brew list 查看安装包的相关信息：
 brew info $FORMULA # 显示某个包的信息 brew info # 显示安装了包数量，文件数量，和总占用空间 brew deps --installed --tree # 查看已安装的包的依赖，树形显示 清理旧版本：
 brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除
-<a href=https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/ class=post-read-more>[阅读全文]</a></div><div class=blog-tags><a href=https://oddfry.github.io/blog/zh-cn/tags/macos/>macOS</a>&nbsp;</div></article></div></div></div></div><footer><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center footer-links"><li><a href=https://github.com/OddFry title=GitHub><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
+<a href=https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/ class=post-read-more>[阅读全文]</a></div><div class=blog-tags><a href=https://oddfry.github.io/blog/zh-cn/tags/macos/>macOS</a>&nbsp;</div></article><article class=post-preview><a href=https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/><h2 class=post-title>Ubuntu 服务器部署 Spring Boot 应用</h2></a><p class=post-meta><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 January 5, 2021
+&nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;345&nbsp;个字</span></p><div class=post-entry>1. 部署环境说明 数据库：MySQL 5.7.31 服务器环境：Ubuntu 18.04 (x86, 64-bit) Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download • 创建安装目录
+mkdir /usr/local/java/ • 将 jdk 文件解压至安装目录
+tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件
+vi /etc/profile • 在末尾添加
+export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH • 刷新环境变量使其生效
+source /etc/profile • 检查 Java 版本
+<a href=https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/ class=post-read-more>[阅读全文]</a></div><div class=blog-tags><a href=https://oddfry.github.io/blog/zh-cn/tags/spring-boot/>Spring Boot</a>&nbsp;
+<a href=https://oddfry.github.io/blog/zh-cn/tags/java/>Java</a>&nbsp;
+<a href=https://oddfry.github.io/blog/zh-cn/tags/mysql/>MySQL</a>&nbsp;
+<a href=https://oddfry.github.io/blog/zh-cn/tags/ubuntu/>Ubuntu</a>&nbsp;</div></article><article class=post-preview><a href=https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/><h2 class=post-title>Ubuntu 18.04 安装 MySQL 5.7</h2><h3 class=post-subtitle>以安装 MySQL 5.7.31 为例</h3></a><p class=post-meta><span class=post-meta><i class="fas fa-calendar"></i>&nbsp;发表于 December 27, 2020
+&nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;129&nbsp;个字</span></p><div class=post-entry>下载 创建下载文件夹并进入
+mkdir mysql ; cd $_ 下载 MySQL DEB Bundle 安装包
+wget https://downloads.mysql.com/archives/get/p/23/file/mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 解压安装包
+tar -xvf mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 安装 更新软件源列表
+sudo apt-get update 根据依赖关系逐个安装，参考 MySQL 数据库的下载、安装和测试
+# libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 依赖common sudo dpkg -i mysql-common_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient20_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient-dev_5.7.31-1ubuntu18.04_amd64.deb # libmysqld-dev_5.7.31依赖libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 sudo dpkg -i libmysqld-dev_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i mysql-community-source_5.7.31-1ubuntu18.04_amd64.deb # community-client依赖libaio1，community-server依赖libmecab2 sudo apt-get install libaio1 libmecab2 # 如果上面依赖包安装后还不行就执行，该命令是解决系统全局所有依赖包问题 sudo apt-get install -f # ubuntu 18.04 安装mysql-community-server时，除了上面依赖，还依赖mysql-client（sudo dpkg -i mysql-client_5.
+<a href=https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/ class=post-read-more>[阅读全文]</a></div><div class=blog-tags><a href=https://oddfry.github.io/blog/zh-cn/tags/mysql/>MySQL</a>&nbsp;
+<a href=https://oddfry.github.io/blog/zh-cn/tags/ubuntu/>Ubuntu</a>&nbsp;</div></article></div></div></div></div><footer><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center footer-links"><li><a href=https://github.com/OddFry title=GitHub><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
 <i class="fab fa-github fa-stack-1x fa-inverse"></i></span></a></li><li><a href=/blog/zh-cn/post/index.xml title=RSS><span class="fa-stack fa-lg"><i class="fas fa-circle fa-stack-2x"></i>
 <i class="fas fa-rss fa-stack-1x fa-inverse"></i></span></a></li></ul><p class="credits copyright text-muted">Fry
 &nbsp;&bull;&nbsp;&copy;
-2023
+2022
 &nbsp;&bull;&nbsp;
 <a href=https://oddfry.github.io/blog/zh-cn/>Fry</a></p><p class="credits theme-by text-muted">由 <a href=https://gohugo.io>Hugo v0.111.1</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href=https://github.com/halogenica/beautifulhugo>Beautiful Hugo</a> 移植自 <a href=https://deanattali.com/beautiful-jekyll/>Beautiful Jekyll</a></p></div></div></div></footer><script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous></script>
 <script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin=anonymous></script>
