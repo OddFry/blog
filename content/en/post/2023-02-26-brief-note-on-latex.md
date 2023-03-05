@@ -1,6 +1,6 @@
 ---
 title: "A Brief Note on Latex"
-date: 2023-02-26T11:41:03+08:00
+date: 2022-09-02T15:11:03+08:00
 tags: ["LaTeX", "Math"]
 ---
 

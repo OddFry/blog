@@ -1,12 +1,13 @@
 ---
-title: "Deploying a Spring Boot Application On_Ubuntu"
-date: 2023-03-04T16:54:08+08:00
+title: "Ubuntu 服务器部署 Spring Boot 应用"
+date: 2021-01-05T20:26:08+08:00
+tags: ["Spring Boot", "Java", "MySQL", "Ubuntu"]
 draft: false
 ---
 
 ## 1. 部署环境说明
-数据库：MySQL 5.7
-服务器环境：Ubuntu 18.04 64bit
+数据库：MySQL 5.7.31
+服务器环境：Ubuntu 18.04 (x86, 64-bit)
 Spring Boot 应用已打包为 JAR 包
 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
 ## 2. Java环境安装
@@ -55,30 +56,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.261-b12, mixed mode)
 
 ## 3. MySQL 数据库安装
 ### 3.1 下载安装
-•	安装 MySQL
-```shell
-yum install mysql-server
-```
-
-•	启动MySQL服务
-```shell
-# 启动 MySQL 服务
-service mysqld start
-# 查看 MySQL 服务状态
-service mysqld status
-```
-
-•	查看初始密码
-```shell
-grep "password" /var/log/mysqld.log
-```
-
-•	登陆MySQL
-```shell
-# 登录 MySQL
-mysql -u root -p
-# 输入刚才查询的初始密码
-```
+参考 [Ubuntu 18.04 安装 MySQL 5.7](https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/)
 
 ### 3.2 配置数据库
 •	修改登陆密码
@@ -110,7 +88,7 @@ mysql> show variables like 'character_set_%';
 8 rows in set (0.00 sec)
 ```
 
-•	修改字符编码
+•	修改字符编码，防止中文写入数据库错误
 ```shell
 vi /etc/mysql/mysql.conf.d/mysqld.cnf
 # 在文件最后添加一行
@@ -140,9 +118,18 @@ mysql> show variables like 'character_set_%';
 8 rows in set (0.01 sec)
 ```
 
+•	启用远程连接，修改配置文件
+```shell
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
+# 接受所有服务器主机 IPv4 接口上的 TCP/IP 连接
+bind-address = 0.0.0.0
+# 重启 MySQL
+service mysql restart
+```
+
 •	开启 MySQL 远程访问权限，允许远程连接
 ```sql
-grant all on *.* to admin@'%' identified by 'password' with grant option;
+grant all on *.* to admin@'%' identified by 'PASSWORD' with grant option;
 ```
 
 •	刷新服务
@@ -159,8 +146,8 @@ CREATE TABLE IF NOT EXISTS `PROJECT_TABLE`(
 
 ## 4. 项目上线部署
 ### 4.1 上传项目
-•	开发端将项目打包为 JAR 包，命名：<PROJECT>.jar
-•	上传至服务器 /usr/local/<PROJECT> 下
+•	开发端将项目打包为 JAR 包，命名：<PROJECT\>.jar
+•	上传至服务器 /usr/local/\<PROJECT> 下
 ### 4.2 部署项目
 •	利用 nohup 不挂断运行命令,当账户退出或终端关闭时,仍然运行项目
 ```shell
@@ -168,4 +155,4 @@ nohup java -jar <PROJECT>.jar >output 2>&1 &
 ```
 
 > 2>&1 作用
-把标准错误（2）重定向到标准输出中（1），而标准输出又导入进文件output里，最终将标准错误和标准输出都导入文件 /usr/local/<PROJECT>/output 里面。 
+> 把标准错误 2 重定向到标准输出 1  中，而标准输出又导入进文件output 中，最终将标准错误和标准输出都导入至文件 /usr/local/<PROJECT\>/output 中

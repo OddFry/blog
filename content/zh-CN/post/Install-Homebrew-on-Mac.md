@@ -1,7 +1,7 @@
 ---
 title: "macOS 安装 Homebrew"
 subtitle: The Missing Package Manager for macOS
-date: 2023-02-26T21:09:30+08:00
+date: 2022-05-23T15:11:30+08:00
 tags: ["macOS"]
 ---
 

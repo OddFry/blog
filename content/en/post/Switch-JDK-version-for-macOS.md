@@ -1,6 +1,6 @@
 ---
 title: "Switch JDK Version for macOS"
-date: 2023-02-26T16:32:04+08:00
+date: 2022-04-06T11:02:04+08:00
 tags: ["Java", "macOS"]
 ---
 
