@@ -6,13 +6,15 @@ draft: false
 ---
 
 ## 1. 部署环境说明
-数据库：MySQL 5.7.31
-服务器环境：Ubuntu 18.04 (x86, 64-bit)
-Spring Boot 应用已打包为 JAR 包
-Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+* 数据库：MySQL 5.7.31
+* 服务器环境：Ubuntu 18.04 (x86, 64-bit)
+* Spring Boot 应用已打包为 JAR 包
+* Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+
 ## 2. Java环境安装
 ### 2.1 Ubuntu 安装 Java环境（JDK 1.8）
 [Java SE Development Kit 8u261 Download](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#:~:text=linux%2Dx64.rpm-,Linux%20x64%20Compressed%20Archive,-85.55%20MB)
+
 •	创建安装目录
 ```shell
 mkdir /usr/local/java/
@@ -56,7 +58,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.261-b12, mixed mode)
 
 ## 3. MySQL 数据库安装
 ### 3.1 下载安装
-参考 [Ubuntu 18.04 安装 MySQL 5.7](https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/)
+参考 [Ubuntu 18.04 安装 MySQL 5.7](https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/)
 
 ### 3.2 配置数据库
 •	修改登陆密码
@@ -146,13 +148,16 @@ CREATE TABLE IF NOT EXISTS `PROJECT_TABLE`(
 
 ## 4. 项目上线部署
 ### 4.1 上传项目
-•	开发端将项目打包为 JAR 包，命名：<PROJECT\>.jar
-•	上传至服务器 /usr/local/\<PROJECT> 下
+•	开发端将项目打包为 JAR 包，命名为：`<PROJECT>.jar`，上传至服务器 `/usr/local/<PROJECT>/` 目录下
 ### 4.2 部署项目
-•	利用 nohup 不挂断运行命令,当账户退出或终端关闭时,仍然运行项目
+•	利用 `nohup` (no hang up) 不挂断运行命令，当会话关闭时，仍然运行程序
 ```shell
-nohup java -jar <PROJECT>.jar >output 2>&1 &
+nohup java -jar <PROJECT>.jar >output.log 2>&1 &
 ```
+> 将标准错误 2 重定向到标准输出 1 中，而标准输出又重定向到文件 output.log 中，最终将标准错误和标准输出都写入至文件 output.log 中
 
-> 2>&1 作用
-> 把标准错误 2 重定向到标准输出 1  中，而标准输出又导入进文件output 中，最终将标准错误和标准输出都导入至文件 /usr/local/<PROJECT\>/output 中
+| 命令 | 作用 |
+| ------ | ------ |
+| & | 让程序在后台运行，会话关闭时运行终止 |
+| nohup java -jar \<PROJECT>.jar & | 会话关闭后程序仍在后台运行 |
+| 2>&1 | 将标准错误 2 重定向到标准输出 1 中 |
