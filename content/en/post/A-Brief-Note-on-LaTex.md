@@ -1,5 +1,5 @@
 ---
-title: "A Brief Note on Latex"
+title: "A Brief Note on LaTex"
 date: 2022-09-02T15:11:03+08:00
 tags: ["LaTeX", "Math"]
 ---
