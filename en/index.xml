@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fry</title><link>https://oddfry.github.io/blog/en/</link><description>Recent content on Fry</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 14 Mar 2023 20:33:02 +0800</lastBuildDate><atom:link href="https://oddfry.github.io/blog/en/index.xml" rel="self" type="application/rss+xml"/><item><title>grep command in Linux</title><link>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</link><pubDate>Tue, 14 Mar 2023 20:33:02 +0800</pubDate><guid>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</guid><description>Syntax grep [options] pattern [files] Options:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fry</title><link>https://oddfry.github.io/blog/en/</link><description>Recent content on Fry</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Mar 2023 13:14:28 +0800</lastBuildDate><atom:link href="https://oddfry.github.io/blog/en/index.xml" rel="self" type="application/rss+xml"/><item><title>File Checksum on macOS</title><link>https://oddfry.github.io/blog/en/post/file-checksum-on-macos/</link><pubDate>Sun, 26 Mar 2023 13:14:28 +0800</pubDate><guid>https://oddfry.github.io/blog/en/post/file-checksum-on-macos/</guid><description>Checksum command MD5
+md5 FILE SHA-1
+shasum -a 1 FILE SHA-256
+shasum -a 256 FILE SHA-512
+shasum -a 512 FILE OpenSSL MD5
+openssl md5 FILE SHA-1
+openssl sha1 FILE SHA-256
+openssl sha256 FILE SHA-512
+openssl sha512 FILE References Check MD5 Hash on your Mac
+Verify SHA1 Hash with openssl
+Check SHA1 Checksum in Mac OS X
+How to Check sha256 Hash of a File on Mac
+How to Check SHA512 Checksum on Mac How to use checksums on Mac to verify app downloads</description></item><item><title>grep command in Linux</title><link>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</link><pubDate>Tue, 14 Mar 2023 20:33:02 +0800</pubDate><guid>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</guid><description>Syntax grep [options] pattern [files] Options:
 -n or --line-number: show line number -i or --ignore-case: case insensitive search --color=auto: color-highlighting the matched text or words in output Examples of pipe and grep Check Java version
 $ java --version java 11.0.14 2022-01-18 LTS Java(TM) SE Runtime Environment 18.9 (build 11.0.14+8-LTS-263) Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.14+8-LTS-263, mixed mode) Search for java and highlight it in the result
 $ java --version | grep --color=auto &amp;#39;java&amp;#39; java 11.</description></item><item><title>A Brief Note on LaTex</title><link>https://oddfry.github.io/blog/en/post/a-brief-note-on-latex/</link><pubDate>Fri, 02 Sep 2022 15:11:03 +0800</pubDate><guid>https://oddfry.github.io/blog/en/post/a-brief-note-on-latex/</guid><description>Line break $$ a \pm b \newline a \mp b $$ $$ a \pm b \newline a\mp b $$
