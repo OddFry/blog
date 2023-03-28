@@ -3,7 +3,7 @@ baseurl = "https://oddfry.github.io/blog/"
 # canonifyURLs = true
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true # Show en "http://localhost:1313/blog/en/"
-title = "Fry"
+title = "Fry's Blog"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -15,7 +15,7 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-  homeTitle = "Hello, World!" # Set a different text for the header on the home page
+  homeTitle = "Fry's Blog" # Set a different text for the header on the home page
   subtitle = "Each day is a microcosm of all life."
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
@@ -77,6 +77,7 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/zh-CN" #Simplified Chinese
     weight = 2
     languageName = "简体中文" # Name shown in the main menu
+    homeTitle = "Fry 的博客"
     subtitle = "一天是一生时光的缩影。"
     [languages.zh-CN.params]
       linkedin = "https://oddfry.github.io/blog/zh-CN/"

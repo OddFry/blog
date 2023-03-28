@@ -46,19 +46,19 @@ $$
 ## Tangent half-angle formula
 ```
 $$
-\sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{[2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}]}{[\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}]}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
+\sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
 \newline
-\cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{[\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}]}{[\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}]}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
+\cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
 \newline
-\tan x=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}}
+\tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}}
 $$
 ```
 $$
-\sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{[2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}]}{[\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}]}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
+\sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
 \newline
-\cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{[\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}]}{[\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}]}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
+\cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}}
 \newline
-\tan x=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}}
+\tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}}
 $$
 
 ## Higher Order Derivatives
