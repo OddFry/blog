@@ -1,3 +1,5 @@
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/OddFry/beautifulhugo.git
+[submodule "origin"]
+	url = git@github.com:OddFry/beautifulhugo.git

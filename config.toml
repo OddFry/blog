@@ -56,9 +56,10 @@ pygmentsCodefencesGuessSyntax = true
   [languages.en] 
     contentDir = "content/en" # English
     weight = 1
-    subtitle = "Each day is a microcosm of all life."
+    # subtitle = "Each day is a microcosm of all life."
     languageName = "ENGLISH" # Name shown in the main menu
     [languages.en.params]
+      subtitle = "Each day is a microcosm of all life."
       linkedin = "https://oddfry.github.io/blog/en/"
     [[languages.en.menu.main]]
         name = "Blog"
@@ -77,9 +78,11 @@ pygmentsCodefencesGuessSyntax = true
     contentDir = "content/zh-CN" #Simplified Chinese
     weight = 2
     languageName = "简体中文" # Name shown in the main menu
-    homeTitle = "Fry 的博客"
-    subtitle = "一天是一生时光的缩影。"
+    # homeTitle = "Fry 的博客"
+    # subtitle = "一天是一生时光的缩影。"
     [languages.zh-CN.params]
+      homeTitle = "Fry 的博客"
+      subtitle = "一天是一生时光的缩影。"
       linkedin = "https://oddfry.github.io/blog/zh-CN/"
     [[languages.zh-CN.menu.main]]
         name = "博客"
