@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on Fry&#39;s Blog</title>
+    <link>http://localhost:1313/blog/zh-cn/tags/macos/</link>
+    <description>Recent content in MacOS on Fry&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 23 May 2022 15:11:30 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/zh-cn/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>macOS 安装 Homebrew</title>
+      <link>http://localhost:1313/blog/zh-cn/post/install-homebrew-on-mac/</link>
+      <pubDate>Mon, 23 May 2022 15:11:30 +0800</pubDate>
+      <guid>http://localhost:1313/blog/zh-cn/post/install-homebrew-on-mac/</guid>
+      <description>安装 Homebrew Homebrew site&#xA;/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; 更新 更新 Homebrew 版本：&#xA;brew update 检查可更新的安装包：&#xA;brew outdated 更新安装包：&#xA;brew upgrade # 更新所有的包 brew upgrade $FORMULA # 更新指定的包 锁定不想更新的包：&#xA;brew pin $FORMULA # 锁定某个包 brew unpin $FORMULA # 取消锁定 其他 列出已安装包&#xA;brew list 查看安装包的相关信息：&#xA;brew info $FORMULA # 显示某个包的信息 brew info # 显示安装了包数量，文件数量，和总占用空间 brew deps --installed --tree # 查看已安装的包的依赖，树形显示 清理旧版本：&#xA;brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除</description>
+    </item>
+  </channel>
+</rss>
