@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Fry&#39;s Blog</title>
-    <link>http://localhost:1313/blog/en/tags/python/</link>
+    <link>https://oddfry.github.io/blog/en/tags/python/</link>
     <description>Recent content in Python on Fry&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 May 2023 10:35:26 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oddfry.github.io/blog/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Managing Multiple Python Versions on macOS with pyenv</title>
-      <link>http://localhost:1313/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</link>
+      <link>https://oddfry.github.io/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</link>
       <pubDate>Thu, 25 May 2023 10:35:26 +0800</pubDate>
-      <guid>http://localhost:1313/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</guid>
+      <guid>https://oddfry.github.io/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</guid>
       <description>pyenv GitHub repository&#xA;Install pyenv Installing with Homebrew&#xA;brew update brew install pyenv Set up shell environment&#xA;echo &amp;#39;export PATH=&amp;#34;$HOME/.pyenv/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Install python Installing a specific version of Python&#xA;pyenv install 3.11.3 Check the existing Python versions, the asterisk (*) signifies the Python version currently in use.&#xA;pyenv versions Switch between Python versions&#xA;pyenv global 3.11.3 # modify ~/.pyenv/version file Check the current Python version</description>
     </item>
   </channel>

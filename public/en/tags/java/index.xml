@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Fry&#39;s Blog</title>
-    <link>http://localhost:1313/blog/en/tags/java/</link>
+    <link>https://oddfry.github.io/blog/en/tags/java/</link>
     <description>Recent content in Java on Fry&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Apr 2022 11:02:04 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/en/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oddfry.github.io/blog/en/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Switch JDK Version for macOS</title>
-      <link>http://localhost:1313/blog/en/post/switch-jdk-version-for-macos/</link>
+      <link>https://oddfry.github.io/blog/en/post/switch-jdk-version-for-macos/</link>
       <pubDate>Wed, 06 Apr 2022 11:02:04 +0800</pubDate>
-      <guid>http://localhost:1313/blog/en/post/switch-jdk-version-for-macos/</guid>
+      <guid>https://oddfry.github.io/blog/en/post/switch-jdk-version-for-macos/</guid>
       <description>Find all of JDK root paths /usr/libexec/java_home -V Switch Java JDK via alias Setup JAVA_HOME path in ~/.zshrc&#xA;# JDK11 JDK8 export JAVA_11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home # default JDK11 export JAVA_HOME=$JAVA_11_HOME # alias JDK version alias jdk11=&amp;#34;export JAVA_HOME=$JAVA_11_HOME&amp;#34; alias jdk8=&amp;#34;export JAVA_HOME=$JAVA_8_HOME&amp;#34; Refresh to activate&#xA;source ~/.zshrc Check Java Version Java 8:&#xA;java -version Java 9 +:&#xA;java --version </description>
     </item>
   </channel>

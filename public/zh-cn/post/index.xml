@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Fry&#39;s Blog</title>
-    <link>http://localhost:1313/blog/zh-cn/post/</link>
+    <link>https://oddfry.github.io/blog/zh-cn/post/</link>
     <description>Recent content in Posts on Fry&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 12 Jul 2023 19:43:36 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oddfry.github.io/blog/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>黄仁勋台湾大学毕业典礼演说</title>
-      <link>http://localhost:1313/blog/zh-cn/post/jensen-huang-commencement-address-at-ntu/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/post/jensen-huang-commencement-address-at-ntu/</link>
       <pubDate>Wed, 12 Jul 2023 19:43:36 +0800</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/post/jensen-huang-commencement-address-at-ntu/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/post/jensen-huang-commencement-address-at-ntu/</guid>
       <description>Nvidia 的故事 Confronting our mistake and with humility asking for help, save NVIDIA. These traits are the hardest for the brightest and most successful like yourself.&#xA;我们坦诚面对错误、谦卑地寻求帮助，拯救 Nvidia 的存续。这些特质对于像你们这样最聪明、最成功的人而言，是最难养成的。&#xA;We invented CUDA and pioneered accelerated computing and AI. But the journey forged our corporate character to endure the pain and suffering that is always needed to realize a vision.&#xA;我们打造了 CUDA 并在加速运算和 AI 领域成为领导者。这段旅程锻造了我们企业的品格，承受痛苦和苦难，是在追求愿景的路上必经之痛。&#xA;Retreat does not come easily to the brightest and most successful people like yourself.</description>
     </item>
     <item>
       <title>macOS 安装 Homebrew</title>
-      <link>http://localhost:1313/blog/zh-cn/post/install-homebrew-on-mac/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</link>
       <pubDate>Mon, 23 May 2022 15:11:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/post/install-homebrew-on-mac/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/post/install-homebrew-on-mac/</guid>
       <description>安装 Homebrew Homebrew site&#xA;/bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;#34; 更新 更新 Homebrew 版本：&#xA;brew update 检查可更新的安装包：&#xA;brew outdated 更新安装包：&#xA;brew upgrade # 更新所有的包 brew upgrade $FORMULA # 更新指定的包 锁定不想更新的包：&#xA;brew pin $FORMULA # 锁定某个包 brew unpin $FORMULA # 取消锁定 其他 列出已安装包&#xA;brew list 查看安装包的相关信息：&#xA;brew info $FORMULA # 显示某个包的信息 brew info # 显示安装了包数量，文件数量，和总占用空间 brew deps --installed --tree # 查看已安装的包的依赖，树形显示 清理旧版本：&#xA;brew cleanup # 清理所有包的旧版本 brew cleanup $FORMULA # 清理指定包的旧版本 brew cleanup -n # 查看可清理的旧版本包，不执行实际操作 删除</description>
     </item>
     <item>
       <title>Ubuntu 服务器部署 Spring Boot 应用</title>
-      <link>http://localhost:1313/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</link>
       <pubDate>Tue, 05 Jan 2021 20:26:08 +0800</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</guid>
       <description>1. 部署环境说明 数据库：MySQL 5.7.31 服务器环境：Ubuntu 18.04 (x86, 64-bit) Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12) 2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download&#xA;•&#x9;创建安装目录&#xA;mkdir /usr/local/java/ •&#x9;将 jdk 文件解压至安装目录&#xA;tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件&#xA;vi /etc/profile •&#x9;在末尾添加&#xA;export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH •&#x9;刷新环境变量使其生效&#xA;source /etc/profile •&#x9;检查 Java 版本</description>
     </item>
     <item>
       <title>Ubuntu 18.04 安装 MySQL 5.7</title>
-      <link>http://localhost:1313/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</link>
       <pubDate>Sun, 27 Dec 2020 11:30:58 +0800</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</guid>
       <description>下载 创建下载文件夹并进入&#xA;mkdir mysql ; cd $_ 下载 MySQL DEB Bundle 安装包&#xA;wget https://downloads.mysql.com/archives/get/p/23/file/mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 解压安装包&#xA;tar -xvf mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 安装 更新软件源列表&#xA;sudo apt-get update 根据依赖关系逐个安装，参考 MySQL 数据库的下载、安装和测试&#xA;# libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 依赖common sudo dpkg -i mysql-common_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient20_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient-dev_5.7.31-1ubuntu18.04_amd64.deb # libmysqld-dev_5.7.31依赖libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 sudo dpkg -i libmysqld-dev_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i mysql-community-source_5.7.31-1ubuntu18.04_amd64.deb # community-client依赖libaio1，community-server依赖libmecab2 sudo apt-get install libaio1 libmecab2 # 如果上面依赖包安装后还不行就执行，该命令是解决系统全局所有依赖包问题 sudo apt-get install -f # ubuntu 18.04 安装mysql-community-server时，除了上面依赖，还依赖mysql-client（sudo dpkg -i mysql-client_5.</description>
     </item>
   </channel>

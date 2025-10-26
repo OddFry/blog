@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fry&#39;s Blog</title>
-    <link>http://localhost:1313/blog/zh-cn/tags/</link>
+    <link>https://oddfry.github.io/blog/zh-cn/tags/</link>
     <description>Recent content in Tags on Fry&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 23 May 2022 15:11:30 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://oddfry.github.io/blog/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacOS</title>
-      <link>http://localhost:1313/blog/zh-cn/tags/macos/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/tags/macos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/tags/macos/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/tags/macos/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/blog/zh-cn/tags/java/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/tags/java/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/tags/java/</guid>
       <description></description>
     </item>
     <item>
       <title>MySQL</title>
-      <link>http://localhost:1313/blog/zh-cn/tags/mysql/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/tags/mysql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/tags/mysql/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/tags/mysql/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
-      <link>http://localhost:1313/blog/zh-cn/tags/spring-boot/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/tags/spring-boot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/tags/spring-boot/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/tags/spring-boot/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/blog/zh-cn/tags/ubuntu/</link>
+      <link>https://oddfry.github.io/blog/zh-cn/tags/ubuntu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/zh-cn/tags/ubuntu/</guid>
+      <guid>https://oddfry.github.io/blog/zh-cn/tags/ubuntu/</guid>
       <description></description>
     </item>
   </channel>
