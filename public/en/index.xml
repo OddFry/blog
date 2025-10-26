@@ -1,68 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fry&#39;s Blog</title>
-    <link>https://oddfry.github.io/blog/en/</link>
-    <description>Recent content on Fry&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 26 Oct 2025 14:27:38 +0800</lastBuildDate>
-    <atom:link href="https://oddfry.github.io/blog/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Checking Azure Credit Balance</title>
-      <link>https://oddfry.github.io/blog/en/post/checking-azure-credit-balance/</link>
-      <pubDate>Sun, 26 Oct 2025 14:27:38 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/checking-azure-credit-balance/</guid>
-      <description> Log in Azure protal home. From the upper-left hamburger menu, select [Cost Management + Billing]. Select [Billing] -&amp;gt; [Payment methods] -&amp;gt; [Azure credits]. </description>
-    </item>
-    <item>
-      <title>Estimating Disk Usage in the Terminal</title>
-      <link>https://oddfry.github.io/blog/en/post/estimating-disk-usage-in-the-terminal/</link>
-      <pubDate>Tue, 23 Apr 2024 21:17:34 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/estimating-disk-usage-in-the-terminal/</guid>
-      <description>Name du - estimate file space usage&#xA;Syntax -s : summarize the disk usage in the current directory, not for each directory therein contained&#xA;-h : sum of directories in human-readable format (-h : Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte)&#xA;Examples Sum of the usage of a specified file or directory&#xA;du -sh {TARGET} Sum of the usage in the current directory in human-readable format&#xA;du -sh * References du (Unix) - Wikipedia</description>
-    </item>
-    <item>
-      <title>Managing Multiple Python Versions on macOS with pyenv</title>
-      <link>https://oddfry.github.io/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</link>
-      <pubDate>Thu, 25 May 2023 10:35:26 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</guid>
-      <description>pyenv GitHub repository&#xA;Install pyenv Installing with Homebrew&#xA;brew update brew install pyenv Set up shell environment&#xA;echo &amp;#39;export PATH=&amp;#34;$HOME/.pyenv/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Install python Installing a specific version of Python&#xA;pyenv install 3.11.3 Check the existing Python versions, the asterisk (*) signifies the Python version currently in use.&#xA;pyenv versions Switch between Python versions&#xA;pyenv global 3.11.3 # modify ~/.pyenv/version file Check the current Python version</description>
-    </item>
-    <item>
-      <title>File Checksum on macOS</title>
-      <link>https://oddfry.github.io/blog/en/post/file-checksum-on-macos/</link>
-      <pubDate>Sun, 26 Mar 2023 13:14:28 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/file-checksum-on-macos/</guid>
-      <description>Checksum command MD5&#xA;md5 FILE SHA-1&#xA;shasum -a 1 FILE SHA-256&#xA;shasum -a 256 FILE SHA-512&#xA;shasum -a 512 FILE OpenSSL MD5&#xA;openssl md5 FILE SHA-1&#xA;openssl sha1 FILE SHA-256&#xA;openssl sha256 FILE SHA-512&#xA;openssl sha512 FILE References Check MD5 Hash on your Mac&#xA;Verify SHA1 Hash with openssl&#xA;Check SHA1 Checksum in Mac OS X&#xA;How to Check sha256 Hash of a File on Mac&#xA;How to Check SHA512 Checksum on Mac How to use checksums on Mac to verify app downloads</description>
-    </item>
-    <item>
-      <title>grep command in Linux</title>
-      <link>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</link>
-      <pubDate>Tue, 14 Mar 2023 20:33:02 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/grep-command-in-linux/</guid>
-      <description>Syntax grep [options] pattern [files] Options:&#xA;-n or --line-number: show line number -i or --ignore-case: case insensitive search --color=auto: color-highlighting the matched text or words in output Examples of pipe and grep Check Java version&#xA;$ java --version java 11.0.14 2022-01-18 LTS Java(TM) SE Runtime Environment 18.9 (build 11.0.14+8-LTS-263) Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.14+8-LTS-263, mixed mode) Search for java and highlight it in the result&#xA;$ java --version | grep --color=auto &amp;#39;java&amp;#39; java 11.</description>
-    </item>
-    <item>
-      <title>A Brief Note on LaTex</title>
-      <link>https://oddfry.github.io/blog/en/post/a-brief-note-on-latex/</link>
-      <pubDate>Fri, 02 Sep 2022 15:11:03 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/a-brief-note-on-latex/</guid>
-      <description>Line break $$ a \pm b \newline a \mp b $$ $$ a \pm b \newline a\mp b $$&#xA;Arrow with annotation $$ a \xrightarrow{s} b \newline C {\xrightleftharpoons[\beta(V)]{\mkern10mu\alpha(V)\mkern10mu}} O $$ $$ a \xrightarrow{s} b \newline C {\xrightleftharpoons[\beta(V)]{\mkern10mu\alpha(V)\mkern10mu}} O $$&#xA;Arithmetic Basics $$ a \cdot b \newline a \times b \newline a \div b $$ $$ a \cdot b \newline a \times b \newline a \div b $$&#xA;Tangent half-angle formula $$ \sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}} $$ $$ \sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}} $$</description>
-    </item>
-    <item>
-      <title>Switch JDK Version for macOS</title>
-      <link>https://oddfry.github.io/blog/en/post/switch-jdk-version-for-macos/</link>
-      <pubDate>Wed, 06 Apr 2022 11:02:04 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/en/post/switch-jdk-version-for-macos/</guid>
-      <description>Find all of JDK root paths /usr/libexec/java_home -V Switch Java JDK via alias Setup JAVA_HOME path in ~/.zshrc&#xA;# JDK11 JDK8 export JAVA_11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home # default JDK11 export JAVA_HOME=$JAVA_11_HOME # alias JDK version alias jdk11=&amp;#34;export JAVA_HOME=$JAVA_11_HOME&amp;#34; alias jdk8=&amp;#34;export JAVA_HOME=$JAVA_8_HOME&amp;#34; Refresh to activate&#xA;source ~/.zshrc Check Java Version Java 8:&#xA;java -version Java 9 +:&#xA;java --version </description>
-    </item>
-    <item>
-      <title>About me</title>
-      <link>https://oddfry.github.io/blog/en/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://oddfry.github.io/blog/en/page/about/</guid>
-      <description>Welcome to my blog!</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fry's Blog</title><link>http://localhost:1313/blog/en/</link><description>Recent content on Fry's Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 26 Oct 2025 14:27:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Checking Azure Credit Balance</title><link>http://localhost:1313/blog/en/post/checking-azure-credit-balance/</link><pubDate>Sun, 26 Oct 2025 14:27:38 +0800</pubDate><guid>http://localhost:1313/blog/en/post/checking-azure-credit-balance/</guid><description> Log in Azure protal home. From the upper-left hamburger menu, select [Cost Management + Billing]. Select [Billing] -&amp;gt; [Payment methods] -&amp;gt; [Azure credits].</description></item><item><title>Estimating Disk Usage in the Terminal</title><link>http://localhost:1313/blog/en/post/estimating-disk-usage-in-the-terminal/</link><pubDate>Tue, 23 Apr 2024 21:17:34 +0800</pubDate><guid>http://localhost:1313/blog/en/post/estimating-disk-usage-in-the-terminal/</guid><description>Name du - estimate file space usage
+Syntax -s : summarize the disk usage in the current directory, not for each directory therein contained
+-h : sum of directories in human-readable format (-h : Byte, Kilobyte, Megabyte, Gigabyte, Terabyte and Petabyte)
+Examples Sum of the usage of a specified file or directory
+du -sh {TARGET} Sum of the usage in the current directory in human-readable format
+du -sh * References du (Unix) - Wikipedia</description></item><item><title>Managing Multiple Python Versions on macOS with pyenv</title><link>http://localhost:1313/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</link><pubDate>Thu, 25 May 2023 10:35:26 +0800</pubDate><guid>http://localhost:1313/blog/en/post/managing-multiple-python-versions-on-macos-with-pyenv/</guid><description>pyenv GitHub repository
+Install pyenv Installing with Homebrew
+brew update brew install pyenv Set up shell environment
+echo &amp;#39;export PATH=&amp;#34;$HOME/.pyenv/bin:$PATH&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc echo &amp;#39;eval &amp;#34;$(pyenv init -)&amp;#34;&amp;#39; &amp;gt;&amp;gt; ~/.zshrc Install python Installing a specific version of Python
+pyenv install 3.11.3 Check the existing Python versions, the asterisk (*) signifies the Python version currently in use.
+pyenv versions Switch between Python versions
+pyenv global 3.11.3 # modify ~/.pyenv/version file Check the current Python version</description></item><item><title>File Checksum on macOS</title><link>http://localhost:1313/blog/en/post/file-checksum-on-macos/</link><pubDate>Sun, 26 Mar 2023 13:14:28 +0800</pubDate><guid>http://localhost:1313/blog/en/post/file-checksum-on-macos/</guid><description>Checksum command MD5
+md5 FILE SHA-1
+shasum -a 1 FILE SHA-256
+shasum -a 256 FILE SHA-512
+shasum -a 512 FILE OpenSSL MD5
+openssl md5 FILE SHA-1
+openssl sha1 FILE SHA-256
+openssl sha256 FILE SHA-512
+openssl sha512 FILE References Check MD5 Hash on your Mac
+Verify SHA1 Hash with openssl
+Check SHA1 Checksum in Mac OS X
+How to Check sha256 Hash of a File on Mac
+How to Check SHA512 Checksum on Mac How to use checksums on Mac to verify app downloads</description></item><item><title>grep command in Linux</title><link>http://localhost:1313/blog/en/post/grep-command-in-linux/</link><pubDate>Tue, 14 Mar 2023 20:33:02 +0800</pubDate><guid>http://localhost:1313/blog/en/post/grep-command-in-linux/</guid><description>Syntax grep [options] pattern [files] Options:
+-n or --line-number: show line number -i or --ignore-case: case insensitive search --color=auto: color-highlighting the matched text or words in output Examples of pipe and grep Check Java version
+$ java --version java 11.0.14 2022-01-18 LTS Java(TM) SE Runtime Environment 18.9 (build 11.0.14+8-LTS-263) Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.14+8-LTS-263, mixed mode) Search for java and highlight it in the result
+$ java --version | grep --color=auto &amp;#39;java&amp;#39; java 11.</description></item><item><title>A Brief Note on LaTex</title><link>http://localhost:1313/blog/en/post/a-brief-note-on-latex/</link><pubDate>Fri, 02 Sep 2022 15:11:03 +0800</pubDate><guid>http://localhost:1313/blog/en/post/a-brief-note-on-latex/</guid><description>Line break $$ a \pm b \newline a \mp b $$ $$ a \pm b \newline a\mp b $$
+Arrow with annotation $$ a \xrightarrow{s} b \newline C {\xrightleftharpoons[\beta(V)]{\mkern10mu\alpha(V)\mkern10mu}} O $$ $$ a \xrightarrow{s} b \newline C {\xrightleftharpoons[\beta(V)]{\mkern10mu\alpha(V)\mkern10mu}} O $$
+Arithmetic Basics $$ a \cdot b \newline a \times b \newline a \div b $$ $$ a \cdot b \newline a \times b \newline a \div b $$
+Tangent half-angle formula $$ \sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}} $$ $$ \sin x=\sin(2\cdot \frac{x}{2})=2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \cos x=\cos(2\cdot \frac{x}{2})=\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}=\frac{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}{\cos^{2}\frac{x}{2}+\sin^{2}\frac{x}{2}}=\frac{1-\tan^{2}\frac{x}{2}}{1+\tan^{2}\frac{x}{2}} \newline \tan x=\tan(2\cdot \frac{x}{2})=\frac{\sin(2\cdot \frac{x}{2})}{\cos(2\cdot \frac{x}{2})}=\frac{2\cdot\sin\frac{x}{2}\cdot\cos\frac{x}{2}}{\cos^{2}\frac{x}{2}-\sin^{2}\frac{x}{2}}=\frac{2\tan\frac{x}{2}}{1-\tan^{2}\frac{x}{2}} $$</description></item><item><title>Switch JDK Version for macOS</title><link>http://localhost:1313/blog/en/post/switch-jdk-version-for-macos/</link><pubDate>Wed, 06 Apr 2022 11:02:04 +0800</pubDate><guid>http://localhost:1313/blog/en/post/switch-jdk-version-for-macos/</guid><description>Find all of JDK root paths /usr/libexec/java_home -V Switch Java JDK via alias Setup JAVA_HOME path in ~/.zshrc
+# JDK11 JDK8 export JAVA_11_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home # default JDK11 export JAVA_HOME=$JAVA_11_HOME # alias JDK version alias jdk11=&amp;#34;export JAVA_HOME=$JAVA_11_HOME&amp;#34; alias jdk8=&amp;#34;export JAVA_HOME=$JAVA_8_HOME&amp;#34; Refresh to activate
+source ~/.zshrc Check Java Version Java 8:
+java -version Java 9 +:
+java --version</description></item><item><title>About me</title><link>http://localhost:1313/blog/en/page/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/blog/en/page/about/</guid><description>Welcome to my blog!</description></item></channel></rss>

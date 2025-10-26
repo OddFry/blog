@@ -1,26 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ubuntu on Fry&#39;s Blog</title>
-    <link>https://oddfry.github.io/blog/zh-cn/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Fry&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 Jan 2021 20:26:08 +0800</lastBuildDate>
-    <atom:link href="https://oddfry.github.io/blog/zh-cn/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ubuntu 服务器部署 Spring Boot 应用</title>
-      <link>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</link>
-      <pubDate>Tue, 05 Jan 2021 20:26:08 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</guid>
-      <description>1. 部署环境说明 数据库：MySQL 5.7.31 服务器环境：Ubuntu 18.04 (x86, 64-bit) Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12) 2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download&#xA;•&#x9;创建安装目录&#xA;mkdir /usr/local/java/ •&#x9;将 jdk 文件解压至安装目录&#xA;tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件&#xA;vi /etc/profile •&#x9;在末尾添加&#xA;export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH •&#x9;刷新环境变量使其生效&#xA;source /etc/profile •&#x9;检查 Java 版本</description>
-    </item>
-    <item>
-      <title>Ubuntu 18.04 安装 MySQL 5.7</title>
-      <link>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</link>
-      <pubDate>Sun, 27 Dec 2020 11:30:58 +0800</pubDate>
-      <guid>https://oddfry.github.io/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</guid>
-      <description>下载 创建下载文件夹并进入&#xA;mkdir mysql ; cd $_ 下载 MySQL DEB Bundle 安装包&#xA;wget https://downloads.mysql.com/archives/get/p/23/file/mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 解压安装包&#xA;tar -xvf mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 安装 更新软件源列表&#xA;sudo apt-get update 根据依赖关系逐个安装，参考 MySQL 数据库的下载、安装和测试&#xA;# libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 依赖common sudo dpkg -i mysql-common_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient20_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient-dev_5.7.31-1ubuntu18.04_amd64.deb # libmysqld-dev_5.7.31依赖libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 sudo dpkg -i libmysqld-dev_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i mysql-community-source_5.7.31-1ubuntu18.04_amd64.deb # community-client依赖libaio1，community-server依赖libmecab2 sudo apt-get install libaio1 libmecab2 # 如果上面依赖包安装后还不行就执行，该命令是解决系统全局所有依赖包问题 sudo apt-get install -f # ubuntu 18.04 安装mysql-community-server时，除了上面依赖，还依赖mysql-client（sudo dpkg -i mysql-client_5.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ubuntu on Fry's Blog</title><link>http://localhost:1313/blog/zh-cn/tags/ubuntu/</link><description>Recent content in Ubuntu on Fry's Blog</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 05 Jan 2021 20:26:08 +0800</lastBuildDate><atom:link href="http://localhost:1313/blog/zh-cn/tags/ubuntu/index.xml" rel="self" type="application/rss+xml"/><item><title>Ubuntu 服务器部署 Spring Boot 应用</title><link>http://localhost:1313/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</link><pubDate>Tue, 05 Jan 2021 20:26:08 +0800</pubDate><guid>http://localhost:1313/blog/zh-cn/post/deploying-a-spring-boot-application-on-ubuntu/</guid><description>1. 部署环境说明 数据库：MySQL 5.7.31 服务器环境：Ubuntu 18.04 (x86, 64-bit) Spring Boot 应用已打包为 JAR 包 Java Version：Java(TM) SE Runtime Environment (build 1.8.0_261-b12) 2. Java环境安装 2.1 Ubuntu 安装 Java环境（JDK 1.8） Java SE Development Kit 8u261 Download
+•	创建安装目录
+mkdir /usr/local/java/ •	将 jdk 文件解压至安装目录
+tar -zxvf jdk-8u261-linux-x64.tar.gz -C /usr/local/java/ 2.2 设置环境变量 • 打开文件
+vi /etc/profile •	在末尾添加
+export JAVA_HOME=/usr/local/java/jdk1.8.0_261 export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH •	刷新环境变量使其生效
+source /etc/profile •	检查 Java 版本</description></item><item><title>Ubuntu 18.04 安装 MySQL 5.7</title><link>http://localhost:1313/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</link><pubDate>Sun, 27 Dec 2020 11:30:58 +0800</pubDate><guid>http://localhost:1313/blog/zh-cn/post/install-mysql-5.7-on-ubuntu-18.04/</guid><description>下载 创建下载文件夹并进入
+mkdir mysql ; cd $_ 下载 MySQL DEB Bundle 安装包
+wget https://downloads.mysql.com/archives/get/p/23/file/mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 解压安装包
+tar -xvf mysql-server_5.7.31-1ubuntu18.04_amd64.deb-bundle.tar 安装 更新软件源列表
+sudo apt-get update 根据依赖关系逐个安装，参考 MySQL 数据库的下载、安装和测试
+# libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 依赖common sudo dpkg -i mysql-common_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient20_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i libmysqlclient-dev_5.7.31-1ubuntu18.04_amd64.deb # libmysqld-dev_5.7.31依赖libmysqlclient20_5.7.31和libmysqlclient-dev_5.7.31 sudo dpkg -i libmysqld-dev_5.7.31-1ubuntu18.04_amd64.deb sudo dpkg -i mysql-community-source_5.7.31-1ubuntu18.04_amd64.deb # community-client依赖libaio1，community-server依赖libmecab2 sudo apt-get install libaio1 libmecab2 # 如果上面依赖包安装后还不行就执行，该命令是解决系统全局所有依赖包问题 sudo apt-get install -f # ubuntu 18.04 安装mysql-community-server时，除了上面依赖，还依赖mysql-client（sudo dpkg -i mysql-client_5.</description></item></channel></rss>

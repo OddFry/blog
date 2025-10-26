@@ -11,7 +11,9 @@ pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
+
+# disable disqus comment module
+disqusShortname = ""
 #googleAnalytics = "XXX"
 
 [Params]
